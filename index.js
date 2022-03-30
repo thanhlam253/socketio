@@ -6,7 +6,7 @@ const {
     Server
 } = require('socket.io')
 const io = new Server(server)
-server.listen(3000, '192.168.0.139', () => {
+server.listen(3000, '0.0.0.0', () => {
      console.log("Srv  started")
  });
 
