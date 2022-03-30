@@ -6,7 +6,7 @@ const {
     Server
 } = require('socket.io')
 const io = new Server(server)
-server.listen(3000, 'socketio-ntl.herokuapp.com', () => {
+server.listen(3000, '0.0.0.0', () => {
      console.log("Srv  started")
  });
 
