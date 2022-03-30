@@ -6,7 +6,7 @@ const {
     Server
 } = require('socket.io')
 const io = new Server(server)
-server.listen(3000, '0.0.0.0', () => {
+server.listen(process.env.PORT, () => {
      console.log("Srv  started")
  });
 
